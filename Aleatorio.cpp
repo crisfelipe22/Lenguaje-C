@@ -10,8 +10,8 @@ int main()
    
     while(validacion==0)
     {
-    	cout << "Programa para adivinar el numero\n";
-	    cout << "Por favor escriba un numero entero de 0 a 100\n";
+    	printf("Programa para adivinar el numero\n");
+	    printf("Por favor escriba un numero entero de 0 a 100\n");
 	 
 	    srand(static_cast<unsigned>(time(NULL)));
 	    int num_maquina = rand() % 101;
